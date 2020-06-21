@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="bootstrap/copilados/bootstrap.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+
+  <title>ORENDA</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Custom styles for this template -->
+  <link href="bootstrap/copilados/carousel.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand btn stretched-link" href="index.html">Orenda</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+
+  <div class="container corder-top mt-5 py-5">
+    <div class="row">
+      <div class="col-12 my=5">
+        <h5>Preencha o formulario ao qual será analisado todas suas
+          informações para contar veracidade de sua instituições e ações</h5>
+      </div>
+
+      <div class="col-12 my=5">
+        <form class="needs-validation" novalidate>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationTooltip01">Nome do responsavel</label>
+              <input type="text" class="form-control" id="validationTooltip01" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="validationTooltip02">Nome fantasia da instituição</label>
+              <input type="text" class="form-control" id="validationTooltip02" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationTooltip03">Endereço</label>
+              <input type="text" class="form-control" id="validationTooltip03" required>
+              <div class="invalid-tooltip">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationTooltip04">Media de pessoas ajudada por mês</label>
+              <select class="custom-select" id="validationTooltip04" required>
+                <option selected>escolha o intervalo</option>
+                <option>0 a 15 pessoas</option>
+                <option>15 a 40 pessoas</option>
+                <option>40 a 70 pessoas</option>
+                <option>mais de 70 pessoas</option>
+              </select>
+              <div class="invalid-tooltip">
+                Please select a valid state.
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationTooltip05">cpf/cnpj</label>
+              <input type="text" class="form-control" id="validationTooltip05" required>
+              <div class="invalid-tooltip">
+                Please provide a valid zip.
+              </div>
+            </div>
+          </div>
+          <a href="index.html" type="button" class="btn btn-primary">enviar</a>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+
+  <footer class="container border-top mt-5 py-5">
+    <div class="row">
+      <div class="col-12 col-md">
+        <h4><span class="fa fa-balance-scale fa-3x" aria-hidden="true"></span></h4>
+        <p>&copy; 2020 Feito por jessé.</p>
+
+      </div>
+
+      <div class="col-6 col-md">
+        <h4>About</h4>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-muted">Quem Somos</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md">
+        <h4>redes sociais</h4>
+        <a href="#" class="text-danger "><span class="fa fa-instagram fa-3x" aria-hidden="true"></span> </a>
+        <a href="#" class="text-inf"><span class="fa fa-facebook fa-3x" aria-hidden="true"></span> </a>
+        <a href="#" class="text-success "><span class="fa fa-whatsapp fa-3x" aria-hidden="true"></span> </a>
+        <a href="#" class="text-primary "><span class="fa fa-twitter fa-3x" aria-hidden="true"></span> </a>
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="jquery/dist/jquery.js"></script>
+  <script>window.jQuery || document.write('<script src="node_modules/jquery/dist/jquery-slim.min.js"><\/script>')</script>
+  <script src="popper.js/dist/umd/popper.min.js"></script>
+  <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+  <!--
+  <script>
+    $form - validation - states: map - merge(
+      (
+        "valid": (
+      "color": $form - feedback - valid - color,
+      "icon": $form - feedback - icon - valid
+    ),
+      "invalid": (
+        "color": $form - feedback - invalid - color,
+          "icon": $form - feedback - icon - invalid
+    )
+  ),
+    $form - validation - states
+);
+
+    // Loop from `_forms.scss`
+    // Any modifications to the above Sass map will be reflected in your compiled
+    // CSS via this loop.
+    @each $state, $data in $form - validation - states {
+      @include form - validation - state($state, map - get($data, color), map - get($data, icon));
+    }
+  </script>-->
+</body>
+
+</html>
